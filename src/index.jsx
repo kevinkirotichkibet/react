@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import './index.css';
 
-const myFirstElement = <h1>This is react</h1>
+const myFirstElement = <Helmet>
+<meta charSet="utf-8" />
+<meta
+    name="description"/>
+</Helmet>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
